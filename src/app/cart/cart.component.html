@@ -1,0 +1,56 @@
+<app-header></app-header>
+<section class="py-5">
+    <div class="container-fluid mt-5">
+        <h1 class="text-success">Cart Summary</h1>
+        <div class="row mt-3">
+            <div class="col-lg-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Product</th>
+                            <th>Image</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>...</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Phone</td>
+                            <td><img width="50px" height="50px" src="https://opsg-img-cdn-gl.heytapimg.com/epb/202402/20/VYh23XynbefcMeYT.png" alt=""></td>
+                            <td>
+                                <div class="d-flex">
+                                    <button class="btn fw-bolder">-</button>
+                                    <input value="10" style="width: 3rem;" type="text" class="form-control"
+                                    readonly>
+                                    <button class="btn fw-bolder">+</button>
+                                </div>
+                            </td>
+                            <td>
+                                $ 450 
+                            </td>
+                            <td>
+                                <button class="btn"><i class="fa-solid fa-trash text-danger"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="float-end">
+                    <button class="btn btn-success">EMPTY CART</button>
+                    <button class="btn btn-primary ms-2">SHOP MORE</button>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="border rounded p-3">
+                    <h3>Cart Total : <span class="fw-bolder text-danger">$ 450</span></h3>
+                    <hr>
+                    <div class="d-grid">
+                        <button class="btn btn-warning">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
